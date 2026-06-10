@@ -16,6 +16,7 @@ import androidx.compose.ui.graphics.*
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.*
 import androidx.navigation.NavController
 import com.juanjojmnz.gtavguide.R
@@ -160,7 +161,13 @@ private fun GTAHeader(modifier: Modifier = Modifier) {
         Text(
             text = "Todo lo que necesitas para conseguir el 100%",
             style = MaterialTheme.typography.bodyMedium.copy(
-                color = GTATextSecondary
+                color = GTATextSecondary,
+                fontWeight = FontWeight.Bold,
+                shadow = Shadow(
+                    color = GTAOrange.copy(alpha = 1f),
+                    offset = Offset(0f, 4f),
+                    blurRadius = 16f
+                )
             )
         )
     }
