@@ -1,0 +1,395 @@
+[
+  {
+    "id": 1,
+    "title": "Prólogo",
+    "description": "En 2004, nueve años antes de los acontecimientos de GTA V, Michael, Trevor y Brad llevan a cabo el robo de una instalación de seguridad en Ludendorff, North Yankton. Tras conseguir aproximadamente 180.000 dólares, deben enfrentarse a la policía local y escapar mientras intentan llegar a un punto de extracción en helicóptero.",
+    "characters": ["MICHAEL", "TREVOR"],
+    "goldRequirements": [],
+    "rewards": ["Acceso al mundo abierto", "Desbloqueo de GTA Online"],
+    "notes": "Primera misión cronológica de GTA V. Introduce a Michael De Santa, Trevor Philips y Brad Snider. Ambientada en 2004, nueve años antes de la historia principal.",
+    "unlockCondition": "Inicio del juego",
+    "missionType": "MAIN_STORY",
+    "orderIndex": 1,
+    "approach": null,
+    "approachName": null,
+    "approachGroup": null
+  },
+  {
+    "id": 2,
+    "title": "Franklin y Lamar",
+    "description": "Nueve años después del prólogo, Franklin Clinton y Lamar Davis reciben de Simeon Yetarian el encargo de embargar dos deportivos de una mansión en Del Perro. Tras elegir los vehículos, ambos compiten por las calles de Los Santos hasta llamar la atención de la policía. Después de escapar de las autoridades, entregan los coches en Premium Deluxe Motorsport y Franklin regresa a su casa en Strawberry.",
+    "characters": ["FRANKLIN"],
+    "goldRequirements": [
+      "Sin rasguños: Entrega el coche embargado con el mínimo daño.",
+      "Conductor concentrado: Usa la habilidad especial de Franklin durante 7 segundos.",
+      "Ganador: Gana la carrera contra Lamar.",
+      "Venimos en son de paz: Evita golpear a los alienígenas en el estudio cinematográfico."
+    ],
+    "rewards": [
+      "$250",
+      "Desbloquea la misión 'Embargo'",
+      "Logro/Trofeo 'Bienvenido a Los Santos'",
+      "Franklin Clinton como personaje jugable",
+      "Residencia Clinton",
+      "Bravado Buffalo S de Franklin",
+      "Ammu-Nation",
+      "Galerías de tiro de Ammu-Nation",
+      "Barberías",
+      "Tiendas para robar",
+      "Los Santos Customs",
+      "Beeker's Garage",
+      "Autolavados",
+      "Cines",
+      "Club de striptease",
+      "Teleférico",
+      "Bolsa de valores",
+      "Atracciones de feria",
+      "Saltos acrobáticos",
+      "Prostitutas",
+      "Trabajos de taxista"
+    ],
+    "notes": "Primera misión de Franklin Clinton. Introduce a Lamar Davis, Simeon Yetarian y Jimmy De Santa. También sirve como tutorial de conducción y presenta la habilidad especial de Franklin.",
+    "unlockCondition": "Completar 'Prólogo'",
+    "missionType": "MAIN_STORY",
+    "orderIndex": 2,
+    "approach": null,
+    "approachName": null,
+    "approachGroup": null
+  },
+  {
+    "id": 3,
+    "title": "Embargo",
+    "description": "Simeon Yetarian encarga a Franklin y Lamar recuperar una motocicleta vendida a crédito a Esteban Jiménez, miembro de Los Santos Vagos. Lo que parecía un embargo sencillo termina convirtiéndose en un tiroteo contra la banda rival y en una persecución por las calles de Vespucci Beach para recuperar la moto.",
+    "characters": ["FRANKLIN"],
+    "goldRequirements": [
+      "Tiempo: Completa la misión en menos de 6 minutos y 30 segundos.",
+      "Estelar: Dispara al rastro de gasolina para hacer explotar el vehículo enemigo.",
+      "Tiros a la cabeza: Mata a 6 enemigos con disparos a la cabeza.",
+      "Precisión: Termina la misión con al menos un 70% de precisión de tiro."
+    ],
+    "rewards": [
+      "Desbloquea la misión 'Complicaciones'",
+      "Desbloquea la misión de Extraños y Locos 'Pedir favores'",
+      "Escopeta de bombeo disponible en Ammu-Nation",
+      "Pistola SPN (versiones mejoradas)",
+      "Martillo (versiones mejoradas)",
+      "Botella (versiones mejoradas)",
+      "Fragmentos de carta desbloqueados",
+      "Actividades de amistad con Lamar Davis",
+      "Motocicleta Western Bagger añadida a los vehículos personales de Franklin",
+      "Simeon Yetarian desbloqueado en el Modo Director (versiones mejoradas)"
+    ],
+    "notes": "Primera misión de combate de Franklin. Introduce las mecánicas de cobertura y tiroteos. También marca el primer enfrentamiento entre los Families y Los Santos Vagos.",
+    "unlockCondition": "Completar 'Franklin y Lamar'",
+    "missionType": "MAIN_STORY",
+    "orderIndex": 3,
+    "approach": null,
+    "approachName": null,
+    "approachGroup": null
+  },
+  {
+    "id": 4,
+    "title": "Complicaciones",
+    "description": "Simeon Yetarian envía a Franklin a recuperar un Karin BeeJay XL de la familia De Santa en Rockford Hills. Tras infiltrarse sigilosamente en la mansión y robar el vehículo, Franklin descubre que Michael De Santa estaba escondido en el asiento trasero. Obligado por Michael, termina estrellando la camioneta contra el concesionario de Simeon, lo que provoca el primer enfrentamiento entre Michael y el vendedor de coches.",
+    "characters": ["FRANKLIN", "MICHAEL"],
+    "goldRequirements": [
+      "Tiempo: Completa la misión en menos de 5 minutos.",
+      "Intocable: No recibas daño durante la pelea contra Simeon.",
+      "Dormir en la tierra: Noquea al jardinero con un ataque sigiloso."
+    ],
+    "rewards": [
+      "$300",
+      "Michael De Santa como personaje jugable",
+      "Michael De Santa desbloqueado en el Modo Director",
+      "Mansión de Michael De Santa",
+      "Obey Tailgater de Michael",
+      "Desbloqueo del Golf",
+      "Desbloqueo del Tenis",
+      "Puño americano disponible en Ammu-Nation (versión mejorada)",
+      "Desbloquea la misión 'Padre/Hijo'",
+      "Desbloquea la misión 'Buscando la verdad' del Programa Epsilon",
+      "Desbloquea 'Movimiento verde' de Barry (si se completó 'Pedir favores')",
+      "Desbloquea 'Ejercitando demonios' de Mary-Ann Quinn (si se completó 'Pedir favores')"
+    ],
+    "notes": "Primera aparición importante de Michael De Santa tras el prólogo. La misión establece la relación entre Michael y Franklin y marca el final de la asociación laboral entre Franklin y Simeon.",
+    "unlockCondition": "Completar 'Embargo'",
+    "missionType": "MAIN_STORY",
+    "orderIndex": 4,
+    "approach": null,
+    "approachName": null,
+    "approachGroup": null
+  },
+  {
+    "id": 5,
+    "title": "Chop",
+    "description": "Lamar Davis convence a Franklin para ayudarle a secuestrar a D, un miembro de los Ballas. Junto a Chop, el perro de Lamar, persiguen al objetivo por Vinewood y Strawberry. Tras una larga persecución en vehículo y a pie, Chop logra localizar y capturar a D, pero Franklin obliga a Lamar a liberarlo para evitar represalias de los Ballas y la policía.",
+    "characters": ["FRANKLIN"],
+    "goldRequirements": [
+      "Sin rasguños: Completa la misión causando el menor daño posible a la furgoneta de Lamar.",
+      "Colega canino: Utiliza la vista de Chop durante al menos 10 segundos.",
+      "Reflejos avanzados: Usa la habilidad especial de Franklin durante 7 segundos."
+    ],
+    "rewards": [
+      "Chop pasa a vivir en la casa de Franklin",
+      "Desbloquea la misión 'Otro favor' de Tonya Wiggins",
+      "Desbloquea la misión 'Stretch el largo'",
+      "Desbloquea la misión 'La niñita de papá' (si se completó 'Asesoramiento matrimonial')"
+    ],
+    "notes": "Primera aparición de Chop. La misión introduce la mecánica de controlar temporalmente al perro y profundiza en la rivalidad entre Families y Ballas.",
+    "unlockCondition": "Completar 'Embargo'",
+    "missionType": "MAIN_STORY",
+    "orderIndex": 5,
+    "approach": null,
+    "approachName": null,
+    "approachGroup": null
+  },
+  {
+    "id": 6,
+    "title": "Stretch el largo",
+    "description": "Tras la salida de Stretch de prisión, Franklin y Lamar lo acompañan a recoger un encargo para negocios. El grupo acude primero a Ammu-Nation para equiparse y después se dirige a una planta de reciclaje, donde descubren que han sido traicionados y emboscados por los Ballas. Tras un intenso tiroteo, eliminan a los enemigos y escapan de la policía antes de regresar a la casa de Franklin.",
+    "characters": ["FRANKLIN"],
+    "goldRequirements": [
+      "Precisión: Termina con al menos un 60% de precisión de tiro.",
+      "Tiros a la cabeza: Mata a 10 enemigos con disparos a la cabeza.",
+      "Sin marcas: Completa la misión con el mínimo daño posible a salud y armadura.",
+      "Tiempo: Termina en menos de 10:30."
+    ],
+    "rewards": [
+      "Escopeta recortada desbloqueada en Ammu-Nation",
+      "Stretch disponible como contacto de Franklin",
+      "Lamar y Stretch disponibles en el Modo Director (versiones mejoradas)",
+      "Posible desbloqueo de la misión 'Safari por el barrio' (si se cumplió 'Tres son multitud')"
+    ],
+    "notes": "La misión introduce una ruptura más clara entre Franklin y Stretch, y refuerza la tensión interna entre miembros de las Families. También incluye un gran tiroteo contra los Ballas en la planta de reciclaje.",
+    "unlockCondition": "Completar 'Chop'",
+    "missionType": "MAIN_STORY",
+    "orderIndex": 6,
+    "approach": null,
+    "approachName": null,
+    "approachGroup": null
+  },
+  {
+    "id": 7,
+    "title": "Padre/Hijo",
+    "description": "Michael De Santa recibe una llamada de su hijo Jimmy, quien está en peligro tras el robo del yate familiar. Michael, con la ayuda de Franklin Clinton, persigue el camión que transporta el barco por la autopista de Los Santos. Durante la persecución, rescatan a Jimmy y recuperan a Franklin, pero el vehículo queda inutilizable, obligándolos a llevarlo a reparar en Los Santos Customs.",
+    "characters": ["MICHAEL", "FRANKLIN"],
+    "goldRequirements": [
+      "Presa rápida: Rescata a Jimmy en menos de 10 segundos.",
+      "Sin rasguños: Devuelve el vehículo de Amanda sin daños."
+    ],
+    "rewards": [
+      "$2000",
+      "Los Santos Customs disponible",
+      "Michael De Santa como personaje jugable junto a Franklin",
+      "Acceso a actividades con Michael y Jimmy",
+      "Contactos de Michael y James De Santa para Franklin"
+    ],
+    "notes": "Primera misión en la que Michael y Franklin trabajan juntos de forma directa. Introduce a Jimmy como personaje activo y muestra la dinámica familiar disfuncional de los De Santa.",
+    "unlockCondition": "Completar 'Complicaciones'",
+    "missionType": "MAIN_STORY",
+    "orderIndex": 7,
+    "approach": null,
+    "approachName": null,
+    "approachGroup": null
+  },
+  {
+    "id": 8,
+    "title": "Asesoramiento matrimonial",
+    "description": "Michael descubre a su esposa Amanda con su instructor de tenis en su propia mansión, lo que desencadena una discusión and la huida del instructor. Con la ayuda de Franklin, Michael persigue al hombre hasta una zona residencial, donde terminan derribando una casa que resulta pertenecer a Martín Madrazo, provocando una peligrosa confrontación con su gente.",
+    "characters": ["MICHAEL", "FRANKLIN"],
+    "goldRequirements": [
+      "Sin un rasguño: Completa la misión con el mínimo daño en el vehículo.",
+      "Límite de tiempo: Termina en menos de 5:30 minutos.",
+      "Asesino motorizado: Mata a 3 enemigos desde un vehículo."
+    ],
+    "rewards": [
+      "Amanda De Santa disponible como personaje en el Modo Director",
+      "Martín Madrazo como contacto para Michael",
+      "Desbloquea la misión 'Solicitud de amistad' de Lester Crest",
+      "Desbloquea la misión 'La niñita de papá' (si se completó 'Chop')"
+    ],
+    "notes": "Misión clave en la que Michael conoce a Martín Madrazo y se introduce una importante cadena de consecuencias con el crimen organizado. También refuerza la relación entre Michael y Franklin.",
+    "unlockCondition": "Completar 'Padre/Hijo'",
+    "missionType": "MAIN_STORY",
+    "orderIndex": 8,
+    "approach": null,
+    "approachName": null,
+    "approachGroup": null
+  },
+  {
+    "id": 9,
+    "title": "La niñita de papá",
+    "description": "Michael intenta reconectar con sus hijos tras una discusión familiar, lo que acaba llevándolo a una carrera en bicicleta con Jimmy y posteriormente a rescatar a Tracey de un rodaje comprometido en un yate en Vespucci Beach.",
+    "characters": ["MICHAEL"],
+    "goldRequirements": [
+      "Mayor velocidad: alcanza la velocidad máxima con la Seashark.",
+      "Estabilizador: no te caigas de la bici.",
+      "Más rápido que un pez: nada hasta el barco en menos de 1:00."
+    ],
+    "rewards": [
+      "Desbloquea triatlones",
+      "Tracey De Santa como personaje del Modo Director",
+      "Acceso a preparativos de 'El golpe a la joyería' (si ya se hizo Ojear la joyería)"
+    ],
+    "notes": "Misión centrada en la relación entre Michael y sus hijos. Incluye carrera en bicicleta y secuencia de infiltración en un yate.",
+    "unlockCondition": "Completar 'Asesoramiento matrimonial'",
+    "missionType": "MAIN_STORY",
+    "orderIndex": 9,
+    "approach": null,
+    "approachName": null,
+    "approachGroup": null
+  },
+  {
+    "id": 10,
+    "title": "Solicitud de amistad",
+    "description": "Michael se reúne con Lester Crest, quien le encarga infiltrarse en las oficinas de Lifeinvader para colocar un dispositivo explosivo en el prototipo de Jay Norris. Michael logra instalarlo haciéndose pasar por técnico y más tarde activa el dispositivo durante una conferencia, provocando la muerte de Jay Norris.",
+    "characters": ["MICHAEL"],
+    "goldRequirements": [
+      "Tiempo: Termina en 8:30",
+      "Fuera spam: Cierra todas las ventanas emergentes en menos de 32 segundos"
+    ],
+    "rewards": [
+      "Se desbloquean tiendas de ropa",
+      "Se desbloquea acceso a Lifeinvader como ubicación de misión",
+      "Se desbloquea la misión 'Ojear la joyería' de Lester Crest",
+      "Se desbloquea el contacto de Lester Crest"
+    ],
+    "notes": "Misión de infiltración tecnológica que marca el inicio de las operaciones de Lester con Michael. Introduce el asesinato de Jay Norris mediante un dispositivo remoto.",
+    "unlockCondition": "Completar 'La niñita de papá'",
+    "missionType": "MAIN_STORY",
+    "orderIndex": 10,
+    "approach": null,
+    "approachName": null,
+    "approachGroup": null
+  },
+  {
+    "id": 11,
+    "title": "Ojear la joyería",
+    "description": "Michael se reúne con Lester Crest en Darnell Bros para planear el atraco a la joyería Vangelico. Michael visita la joyería para recopilar información sobre cámaras, ventilación y seguridad, mientras Lester analiza el sistema. Finalmente, ambos diseñan dos posibles métodos de golpe: uno agresivo y otro sigiloso.",
+    "characters": ["MICHAEL"],
+    "goldRequirements": [
+      "Tiempo: Termina en 8:00",
+      "Imagen perfecta: captura los 3 dispositivos de seguridad en una sola foto"
+    ],
+    "rewards": [
+      "Inicio de preparativos del golpe a la joyería (El trabajo de la joyería)",
+      "Acceso a planificación de golpe con dos enfoques (Osado / Astuto)",
+      "Carabinas (si se elige plan Osado)",
+      "Equipo Bugstars y gas BZ (si se elige plan Astuto)"
+    ],
+    "notes": "Misión de reconocimiento clave para el atraco a la joyería Vangelico. Introduce el sistema de planificación de golpes y la elección de enfoques alternativos.",
+    "unlockCondition": "Completar 'Stretch el largo'",
+    "missionType": "MAIN_STORY",
+    "orderIndex": 11,
+    "approach": null,
+    "approachName": null,
+    "approachGroup": null
+  },
+  {
+    "id": 12,
+    "title": "Carabinas",
+    "description": "Lester Crest contacta con Michael para interceptar un vehículo del FIB que transporta carabinas. Michael debe robar el cargamento, eliminar a los agentes, escapar del nivel de búsqueda y entregar las armas en Darnell Bros como preparación para el atraco a la joyería Vangelico.",
+    "characters": ["MICHAEL"],
+    "goldRequirements": [
+      "Huida rápida: libérate del nivel de búsqueda en menos de 2:00"
+    ],
+    "rewards": [
+      "Desbloquea el golpe a la joyería (plan Osado)",
+      "Acceso a carabinas para el atraco"
+    ],
+    "notes": "Misión preparatoria del atraco a la joyería donde se obtiene armamento pesado robando un convoy del FIB.",
+    "unlockCondition": "Completar 'Ojear la joyería'",
+    "missionType": "MAIN_STORY",
+    "orderIndex": 12,
+    "approach": "1",
+    "approachName": "Osado",
+    "approachGroup": "JEWELRY_HEIST"
+  },
+  {
+    "id": 13,
+    "title": "Equipo de Bugstars",
+    "description": "Lester Crest envía a Michael a robar una furgoneta de Bugstars Pest Control para usarla como cobertura en el atraco a la joyería Vangelico. Michael debe infiltrarse en el almacén o neutralizar a los empleados y escapar con la furgoneta sin levantar sospechas o tras perder el nivel de búsqueda.",
+    "characters": ["MICHAEL"],
+    "goldRequirements": [
+      "Plaga escurridiza: roba la furgoneta de Bugstars sin ser detectado"
+    ],
+    "rewards": [
+      "Desbloquea preparación del golpe a la joyería (plan Astuto)",
+      "Acceso a equipo Bugstars para infiltración"
+    ],
+    "notes": "Misión preparatoria del atraco a la joyería donde se obtiene una furgoneta de Bugstars para el uso de gas BZ en el plan sigiloso.",
+    "unlockCondition": "Completar 'Ojear la joyería'",
+    "missionType": "MAIN_STORY",
+    "orderIndex": 12,
+    "approach": "2",
+    "approachName": "Astuto",
+    "approachGroup": "JEWELRY_HEIST"
+  },
+  {
+    "id": 14,
+    "title": "Granadas de gas BZ",
+    "description": "Lester Crest encarga a Michael interceptar una furgoneta blindada que transporta granadas de gas BZ. Michael debe perseguir el vehículo, recuperarlo mediante combate o disparos, y llevar el cargamento de vuelta a la fábrica textil como preparación para el atraco a la joyería Vangelico.",
+    "characters": ["MICHAEL"],
+    "goldRequirements": [
+      "Carga suelta: abre las puertas traseras a tiros para soltar la mercancía"
+    ],
+    "rewards": [
+      "Desbloquea el atraco a la joyería (plan Astuto)"
+    ],
+    "notes": "Misión preparatoria del plan sigiloso del golpe a la joyería Vangelico, centrada en la obtención del gas BZ necesario para incapacitar a los objetivos.",
+    "unlockCondition": "Completar 'Equipo de Bugstars'",
+    "missionType": "MAIN_STORY",
+    "orderIndex": 13,
+    "approach": "2",
+    "approachName": "Astuto",
+    "approachGroup": "JEWELRY_HEIST"
+  },
+  {
+    "id": 15,
+    "title": "El golpe a la joyería",
+    "description": "Michael, Franklin y el equipo seleccionado llevan a cabo el asalto a la prestigiosa joyería Vangelico. Dependiendo del plan, se infiltran para vaciar las vitrinas en un tiempo récord y emprenden una huida a alta velocidad en motocicletas a través de los túneles de Los Santos, contando con el apoyo de Michael en un camión blindado para neutralizar a la policía en el canal.",
+    "characters": ["MICHAEL", "FRANKLIN"],
+    "goldRequirements": [
+      "Presa rápida: Roba la joyería en menos de 50 segundos.",
+      "Protegido protegido: Protege a Franklin durante la persecución del río de Los Santos.",
+      "Barrido total: Roba las 20 vitrinas de cristal de la joyería."
+    ],
+    "rewards": [
+      "Carabina, Gas lacrimógeno y Carabina especial (esta última solo en PS4, Xbox One, PC, PS5 y Xbox Series) desbloqueados en Ammu-Nation",
+      "Lester Crest disponible como contacto para Franklin",
+      "Desbloquea la misión 'Sr. Philips' de Trevor Philips",
+      "Logro / Trofeo: 'Duro como el diamante'"
+    ],
+    "notes": "El botín económico total se obtiene formalmente tras completar la misión 'El reencuentro'. Durante la huida en el túnel, Norm Richards se estrellará de forma inevitable si fue el pistolero elegido, permitiendo a Franklin recuperar su bolsa. Karim Denz elegirá motos de competición (peor agarre en lodo), mientras que Eddie Toh elegirá motos todoterreno (conducción más fluida y segura).",
+    "unlockCondition": "Completar las misiones de preparación previas al golpe ('Inspeccionando la joyería' y el equipamiento correspondiente según el plan elegido)",
+    "missionType": "MAIN_STORY",
+    "orderIndex": 14,
+    "approach": "1",
+    "approachName": "Osado",
+    "approachGroup": "JEWELRY_HEIST"
+  },
+  {
+    "id": 16,
+    "title": "El trabajo de la joyería",
+    "description": "Michael y su equipo ejecutan un asalto táctico a Vangelico. Franklin se infiltra en el tejado para incapacitar a todos en la tienda lanzando gas BZ por el sistema de ventilación. Con los clientes dormidos, el equipo entra con masks de gas para saquear las vitrinas antes de emprender una huida coordinada por los túneles y el canal de Los Santos.",
+    "characters": ["MICHAEL", "FRANKLIN"],
+    "goldRequirements": [
+      "Presa rápida: Roba la joyería en menos de 50 segundos.",
+      "Protegido protegido: Protege a Franklin durante la persecución del río de Los Santos.",
+      "Barrido total: Roba las 20 vitrinas de cristal de la joyería."
+    ],
+    "rewards": [
+      "Carabina, Gas lacrimógeno y Carabina especial (esta última solo en PS4, Xbox One, PC, PS5 y Xbox Series) desbloqueados en Ammu-Nation",
+      "Lester Crest disponible como contacto para Franklin",
+      "Desbloquea la misión 'Sr. Philips' de Trevor Philips",
+      "Logro / Trofeo: 'Duro como el diamante'"
+    ],
+    "notes": "Es vital no confundir el Gas BZ con gas lacrimógeno al lanzarlo por el conducto, o la misión fallará. Al igual que en el plan osado, la elección del conductor (Eddie Toh vs Karim Denz) influye en la estabilidad de las motos en los túneles y las indicaciones del trayecto.",
+    "unlockCondition": "Completar las misiones de preparación 'Granadas de gas BZ' y 'Bugstars: Equipamiento'",
+    "missionType": "MAIN_STORY",
+    "orderIndex": 14,
+    "approach": "2",
+    "approachName": "Astuto",
+    "approachGroup": "JEWELRY_HEIST"
+  }
+]
