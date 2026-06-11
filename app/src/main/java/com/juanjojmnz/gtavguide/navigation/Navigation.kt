@@ -10,6 +10,7 @@ import com.juanjojmnz.gtavguide.ui.screens.CheatsScreen
 import com.juanjojmnz.gtavguide.ui.screens.HundredPercentScreen
 import com.juanjojmnz.gtavguide.ui.screens.MissionsScreen
 import com.juanjojmnz.gtavguide.ui.screens.StrangersScreen
+import com.juanjojmnz.gtavguide.ui.screens.TemporalScreen
 
 sealed class Screen(val route: String) {
     object Home : Screen("home")
@@ -35,8 +36,44 @@ fun GTANavGraph(
         composable("strangers") {
             StrangersScreen(navController = navController)
         }
+        composable("heists") {
+            TemporalScreen(navController = navController)
+        }
+        composable("lester") {
+            TemporalScreen(navController = navController)
+        }
+        composable("collectibles") {
+            TemporalScreen(navController = navController)
+        }
+        composable("activities") {
+            TemporalScreen(navController = navController)
+        }
+        composable("secondary") {
+            TemporalScreen(navController = navController)
+        }
+        composable("races") {
+            TemporalScreen(navController = navController)
+        }
+        composable("events") {
+            TemporalScreen(navController = navController)
+        }
+        composable("properties") {
+            TemporalScreen(navController = navController)
+        }
+        composable("map") {
+            TemporalScreen(navController = navController)
+        }
+        composable("curiosities") {
+            TemporalScreen(navController = navController)
+        }
         composable("cheats") {
             CheatsScreen(navController = navController)
+        }
+        composable("online") {
+            TemporalScreen(navController = navController)
+        }
+        composable("about") {
+            TemporalScreen(navController = navController)
         }
     }
 }
