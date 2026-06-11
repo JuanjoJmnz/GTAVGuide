@@ -341,26 +341,6 @@ fun MissionCard(mission: Mission, onClick: () -> Unit) {
                     }
                 }
             }
-            Box(contentAlignment = Alignment.Center) {
-                Box(
-                    modifier = Modifier
-                        .size(50.dp)
-                        .background(
-                            brush = androidx.compose.ui.graphics.Brush.radialGradient(
-                                colors = listOf(
-                                    accentColor.copy(alpha = 0.4f),
-                                    Color.Transparent
-                                )
-                            ),
-                            shape = RoundedCornerShape(50)
-                        )
-                )
-                androidx.compose.foundation.Image(
-                    painter = painterResource(id = R.drawable.icono_misiones_principales),
-                    contentDescription = null,
-                    modifier = Modifier.size(30.dp)
-                )
-            }
         }
     }
 }
