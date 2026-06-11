@@ -44,3 +44,19 @@ data class Mission(
     val approachName: String? = null,
     val approachGroup: String? = null
 )
+
+@Entity(tableName = "properties")
+@TypeConverters(Converters::class)
+data class Property(
+    @PrimaryKey(autoGenerate = true) val id: Int = 0,
+    val title: String,
+    val propertyType: String,
+    val description: String,
+    val price: Long,
+    val availableTo: List<String>,
+    val location: String,
+    val weeklyIncome: Long = 0,
+    val unlocks: List<String> = emptyList(),
+    val notes: String = "",
+    val orderIndex: Int = 0
+)
