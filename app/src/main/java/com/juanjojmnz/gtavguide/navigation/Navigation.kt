@@ -9,6 +9,8 @@ import com.juanjojmnz.gtavguide.ui.screens.HomeScreen
 import com.juanjojmnz.gtavguide.ui.screens.CheatsScreen
 import com.juanjojmnz.gtavguide.ui.screens.HundredPercentScreen
 import com.juanjojmnz.gtavguide.ui.screens.MissionsScreen
+import com.juanjojmnz.gtavguide.ui.screens.PropertiesScreen
+import com.juanjojmnz.gtavguide.ui.screens.RandomEventsScreen
 import com.juanjojmnz.gtavguide.ui.screens.StrangersScreen
 import com.juanjojmnz.gtavguide.ui.screens.TemporalScreen
 
@@ -55,10 +57,10 @@ fun GTANavGraph(
             TemporalScreen(navController = navController)
         }
         composable("events") {
-            TemporalScreen(navController = navController)
+            RandomEventsScreen(navController = navController)
         }
         composable("properties") {
-            TemporalScreen(navController = navController)
+            PropertiesScreen(navController = navController)
         }
         composable("map") {
             TemporalScreen(navController = navController)
