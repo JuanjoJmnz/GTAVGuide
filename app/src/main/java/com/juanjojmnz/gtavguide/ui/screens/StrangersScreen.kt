@@ -22,6 +22,7 @@ import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
 import com.juanjojmnz.gtavguide.R
+import com.juanjojmnz.gtavguide.auxiliar.filterColor
 import com.juanjojmnz.gtavguide.model.Mission
 import com.juanjojmnz.gtavguide.ui.components.CharacterWheelSelector
 import com.juanjojmnz.gtavguide.ui.theme.*
@@ -35,6 +36,10 @@ fun StrangersScreen(
 ) {
     val uiState by viewModel.uiState.collectAsState()
     val selectedMission by viewModel.selectedMission.collectAsState()
+
+    val accentColor by remember(uiState.selectedFilter) {
+        derivedStateOf { filterColor(uiState.selectedFilter) }
+    }
 
     if (selectedMission != null) {
         AnimatedVisibility(
@@ -58,8 +63,8 @@ fun StrangersScreen(
                         Text(
                             text = "EXTRAÑOS Y LOCOS",
                             style = MaterialTheme.typography.headlineMedium.copy(
-                                color = TrevorOrange,
-                                letterSpacing = 2.sp
+                                color = accentColor,
+                                letterSpacing = 3.sp
                             )
                         )
                     },
@@ -68,7 +73,7 @@ fun StrangersScreen(
                             Icon(
                                 imageVector = Icons.AutoMirrored.Filled.ArrowBack,
                                 contentDescription = "Volver",
-                                tint = TrevorOrange
+                                tint = accentColor
                             )
                         }
                     },
