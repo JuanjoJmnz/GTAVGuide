@@ -17,13 +17,12 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.drawBehind
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
-import com.juanjojmnz.gtavguide.R
+import com.juanjojmnz.gtavguide.auxiliar.filterColor
 import com.juanjojmnz.gtavguide.model.Mission
 import com.juanjojmnz.gtavguide.ui.components.CharacterWheelSelector
 import com.juanjojmnz.gtavguide.ui.theme.*
@@ -45,7 +44,6 @@ fun groupMissions(missions: List<Mission>): List<MissionGroup> {
 
     sorted.forEach { mission ->
         if (mission.id in processed) return@forEach
-
         if (mission.approachGroup != null) {
             if (result.any { g -> g.approachGroup == mission.approachGroup }) {
                 processed.add(mission.id)
@@ -125,10 +123,8 @@ fun ApproachGroupCard(
                     )
                 )
             }
-
             HorizontalDivider(thickness = 0.5.dp, color = GTADivider)
             Spacer(Modifier.height(10.dp))
-
             Row(
                 modifier = Modifier.fillMaxWidth(),
                 horizontalArrangement = Arrangement.spacedBy(8.dp)
@@ -167,21 +163,17 @@ fun ApproachGroupCard(
                             )
                             Text(
                                 text = mission.title,
-                                style = MaterialTheme.typography.bodySmall.copy(
-                                    color = GTATextPrimary
-                                )
+                                style = MaterialTheme.typography.bodySmall.copy(color = GTATextPrimary)
                             )
                         }
                     }
                 }
-
                 Box(
                     modifier = Modifier
                         .width(0.5.dp)
                         .fillMaxHeight()
                         .background(GTADivider)
                 )
-
                 Column(modifier = Modifier.weight(1f)) {
                     Surface(
                         shape = RoundedCornerShape(2.dp),
@@ -216,15 +208,12 @@ fun ApproachGroupCard(
                             )
                             Text(
                                 text = mission.title,
-                                style = MaterialTheme.typography.bodySmall.copy(
-                                    color = GTATextPrimary
-                                )
+                                style = MaterialTheme.typography.bodySmall.copy(color = GTATextPrimary)
                             )
                         }
                     }
                 }
             }
-
             if (group.commonMissions.isNotEmpty()) {
                 Spacer(Modifier.height(10.dp))
                 HorizontalDivider(thickness = 0.5.dp, color = GTADivider)
@@ -303,9 +292,7 @@ fun MissionCard(mission: Mission, onClick: () -> Unit) {
                     Spacer(Modifier.height(3.dp))
                     Text(
                         text = mission.unlockCondition,
-                        style = MaterialTheme.typography.labelSmall.copy(
-                            color = GTATextSecondary
-                        )
+                        style = MaterialTheme.typography.labelSmall.copy(color = GTATextSecondary)
                     )
                 }
                 Spacer(Modifier.height(6.dp))
@@ -583,6 +570,10 @@ fun MissionsScreen(
     val uiState by viewModel.uiState.collectAsState()
     val selectedMission by viewModel.selectedMission.collectAsState()
 
+    val accentColor by remember(uiState.selectedFilter) {
+        derivedStateOf { filterColor(uiState.selectedFilter) }
+    }
+
     if (selectedMission != null) {
         AnimatedVisibility(
             visible = true,
@@ -605,7 +596,7 @@ fun MissionsScreen(
                         Text(
                             text = "MISIONES",
                             style = MaterialTheme.typography.headlineMedium.copy(
-                                color = MichaelBlue,
+                                color = accentColor,
                                 letterSpacing = 3.sp
                             )
                         )
@@ -615,7 +606,7 @@ fun MissionsScreen(
                             Icon(
                                 imageVector = Icons.AutoMirrored.Filled.ArrowBack,
                                 contentDescription = "Volver",
-                                tint = MichaelBlue
+                                tint = accentColor
                             )
                         }
                     },
@@ -634,7 +625,7 @@ fun MissionsScreen(
                             .padding(innerPadding),
                         contentAlignment = Alignment.Center
                     ) {
-                        CircularProgressIndicator(color = GTAGreen)
+                        CircularProgressIndicator(color = accentColor)
                     }
                 }
                 uiState.missions.isEmpty() -> {
@@ -672,7 +663,7 @@ fun MissionsScreen(
                             Text(
                                 text = "${uiState.missions.size} misiones",
                                 style = MaterialTheme.typography.labelMedium.copy(
-                                    color = GTATextSecondary,
+                                    color = accentColor,
                                     letterSpacing = 1.sp
                                 ),
                                 modifier = Modifier.padding(bottom = 4.dp)
