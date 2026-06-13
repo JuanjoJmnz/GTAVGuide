@@ -45,6 +45,21 @@ data class Mission(
     val approachGroup: String? = null
 )
 
+@Entity(tableName = "random_events")
+@TypeConverters(Converters::class)
+data class RandomEvent(
+    @PrimaryKey(autoGenerate = true) val id: Int = 0,
+    val number: Int,
+    val title: String,
+    val description: String,
+    val location: String,
+    val characters: List<String>,
+    val reward: String,
+    val unlocks: String = "",
+    val notes: String = "",
+    val orderIndex: Int = 0
+)
+
 @Entity(tableName = "properties")
 @TypeConverters(Converters::class)
 data class Property(
