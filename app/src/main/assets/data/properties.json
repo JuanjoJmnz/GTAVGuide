@@ -1,0 +1,41 @@
+[
+  {
+    "id": 0,
+    "title": "Empresa de taxis",
+    "propertyType": "NEGOCIO",
+    "description": "Empresa de taxis situada en el centro de Los Santos.",
+    "price": 200000,
+    "availableTo": ["FRANKLIN"],
+    "location": "Centro, Los Santos",
+    "weeklyIncome": 2000,
+    "unlocks": ["Misiones de taxi"],
+    "notes": "Solo disponible para Franklin.",
+    "orderIndex": 1
+  },
+  {
+    "id": 0,
+    "title": "Campo de golf",
+    "propertyType": "OCIO",
+    "description": "El exclusivo club de golf de Los Santos.",
+    "price": 150000000,
+    "availableTo": ["MICHAEL", "FRANKLIN", "TREVOR"],
+    "location": "Richman, Los Santos",
+    "weeklyIncome": 264000,
+    "unlocks": ["Partidas de golf"],
+    "notes": "La propiedad más cara del juego.",
+    "orderIndex": 2
+  },
+  {
+    "id": 0,
+    "title": "Hangar del aeropuerto",
+    "propertyType": "NEGOCIO",
+    "description": "Hangar en el aeropuerto internacional de Los Santos.",
+    "price": 1378600,
+    "availableTo": ["TREVOR"],
+    "location": "Aeropuerto, Los Santos",
+    "weeklyIncome": 0,
+    "unlocks": ["Misiones de Trevor"],
+    "notes": "Solo disponible para Trevor.",
+    "orderIndex": 3
+  }
+]
